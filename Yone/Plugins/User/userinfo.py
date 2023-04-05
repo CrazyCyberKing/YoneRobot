@@ -296,7 +296,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n┣|• This User Is My 'Creator'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n┣|• This user is member of 'Yone Developer Team'."
+        text += "\n┣|• This user is member of 'Serena Developer Team'."
         disaster_level_present = True
     elif user.id in INSPECTOR:
         text += "\n┣|• This person is my Inspector. his Power level is near to my 'Owner' "
@@ -306,7 +306,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/Yone_Updates">?</a>]'.format(
+        text += ' [<a href="https://t.me/Serena_Support">?</a>]'.format(
             bot.username
         )
 
@@ -563,7 +563,7 @@ Examples:
  ‣ `/ginfo`*:* get information about a Group. 
  
 *What is that health thingy?*
- Come and see [HP System explained](https://t.me/Yone_Updates)
+ Come and see [HP System explained](https://t.me/Serena_Support)
 """
 __mod_name__ = "Infos"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
